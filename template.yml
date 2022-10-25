@@ -4,7 +4,7 @@ Resources:
   Repository:
     Type: AWS::ECR::Repository
     Properties:
-      RepositoryName: demo3
+      RepositoryName: demo
 
 Outputs:
   Role:
