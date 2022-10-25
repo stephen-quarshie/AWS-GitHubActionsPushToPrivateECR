@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Resources:
+  Repository:
+    Type: AWS::ECR::Repository
+    Properties:
+      RepositoryName: demo3
+
+Outputs:
+  Role:
+    Value: !GetAtt Repository.RepositoryUri
